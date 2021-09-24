@@ -3,12 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "NODE_OPTIONS='--inspect' next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@types/faker": "^5.5.8",
+    "axios": "^0.21.4",
+    "faker": "^5.5.3",
+    "fp-ts": "^2.11.3",
+    "io-ts": "^2.2.16",
+    "io-ts-reporters": "^2.0.0",
     "next": "11.1.2",
     "react": "17.0.2",
     "react-dom": "17.0.2"
