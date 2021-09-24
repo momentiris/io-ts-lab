@@ -1,6 +1,6 @@
 import type { GetStaticProps, InferGetStaticPropsType } from 'next'
 import styles from '../styles/Home.module.css'
-import { Users, Users, UsersCodec } from '../types/client'
+import { Users, UsersCodec } from '../types/client'
 
 import { foldW } from 'fp-ts/lib/Either'
 import { pipe } from 'fp-ts/lib/function'
